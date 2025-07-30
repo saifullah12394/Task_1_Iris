@@ -1,0 +1,51 @@
+# 💼 Task 4: Predicting Insurance Claim Amounts
+
+## 📌 Objective
+To predict medical insurance charges using personal and lifestyle data with Linear Regression.
+
+## 📂 Dataset
+- **Name:** Medical Cost Personal Dataset
+- **Source:** Kaggle (https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- **Target Variable:** `charges`
+
+## 🧪 Key Steps
+
+1. **Data Inspection**  
+   - Loaded and checked data using pandas
+   - No missing values found
+
+2. **Preprocessing**  
+   - Applied One-Hot Encoding to convert categorical columns
+
+3. **Visualization**  
+   - Explored relationships between age, BMI, smoker status, and charges
+   - Created scatter plots and box plots
+
+4. **Model Training**  
+   - Used `LinearRegression` from scikit-learn
+   - Trained and tested the model
+
+5. **Evaluation Metrics**  
+   - MAE (Mean Absolute Error)
+   - RMSE (Root Mean Squared Error)
+
+## 📊 Key Insights
+- Smokers pay significantly higher insurance charges
+- BMI and age also impact charges
+- Linear Regression provides a good baseline model
+
+## 🛠️ Libraries Used
+- pandas
+- seaborn
+- matplotlib
+- scikit-learn
+- numpy
+
+## ✅ Output
+- `insurance_prediction.ipynb`: Main notebook with code and analysis
+- `README.md`: This documentation file
+
+---
+
+📎 **Author:** Muhammad Saifullah  
+📅 **Internship:** DevelopersHub Corporation – Data Science & Analytics  
